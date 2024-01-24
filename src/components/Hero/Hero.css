@@ -1,0 +1,7 @@
+.hero {
+    background-image: url(/drinks.jpg);
+    opacity: 0.3; 
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
