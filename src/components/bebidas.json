@@ -1,0 +1,44 @@
+{
+    "bebidas": [
+      {
+        "id": 1,
+        "nombre": "Ron Bacardí Añejo",
+        "descripcion": "Ron añejo de alta calidad",
+        "tipo": "Ron",
+        "precio": 25.99,
+        "imagen": "url_de_la_imagen"
+      },
+      {
+        "id": 2,
+        "nombre": "Jack Daniel's Tennessee Whiskey",
+        "descripcion": "Whiskey americano de Tennessee",
+        "tipo": "Whiskey",
+        "precio": 30.49,
+        "imagen": "url_de_la_imagen"
+      },
+      {
+        "id": 3,
+        "nombre": "Moët & Chandon Brut Impérial",
+        "descripcion": "Champagne francés Brut",
+        "tipo": "Champagne",
+        "precio": 45.99,
+        "imagen": "url_de_la_imagen"
+      },
+      {
+        "id": 4,
+        "nombre": "Gin Bombay Sapphire",
+        "descripcion": "Ginebra inglesa de alta gama",
+        "tipo": "Ginebra",
+        "precio": 35.75,
+        "imagen": "url_de_la_imagen"
+      },
+      {
+        "id": 5,
+        "nombre": "Tequila Patrón Reposado",
+        "descripcion": "Tequila reposado de agave azul",
+        "tipo": "Tequila",
+        "precio": 40.99,
+        "imagen": "url_de_la_imagen"
+      }
+    ]
+  }
