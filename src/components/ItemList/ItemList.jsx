@@ -1,13 +1,15 @@
 import React from 'react';
-import ItemDetail from '../ItemDetail/ItemDetail';
-import './ItemList.css'
+import Item from '../Item/Item';
+import './ItemList.css';
 
 const ItemList = ({ bebidas }) => {
   return (
     <div className="item-list">
-      {bebidas && bebidas.map((bebida) => (
-        <ItemDetail key={bebida.id} item={bebida} />
-      ))}
+      {Array.isArray(bebidas) ? bebidas.map((bebida) => (
+        <Item key={bebida.id} bebida={bebida} />
+      )) : (
+        <p>No hay bebidas disponibles</p>
+      )}
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ItemList from '../ItemList/ItemList';
-import data from '../bebidas.json'; 
+import ItemList from '../ItemList/ItemList'; 
 import './ItemListContainer.css'
 
 
@@ -8,8 +7,18 @@ const ItemListContainer = () => {
   const [bebidas, setBebidas] = useState([]);
 
   useEffect(() => {
-    const bebidasData = data.bebidas;
-    setBebidas(bebidasData);
+    const fetchData = async () => {
+      try {
+        const response = await fetch("./bebidas.json");
+        const data = await response.json();
+        setBebidas(data.bebidas);
+        console.log(data);
+      } catch(error){
+        console.log(error);
+      }
+    }
+
+    fetchData();
   }, []);
 
   return (
