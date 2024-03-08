@@ -1,49 +1,184 @@
 {
-    "bebidas": [
-      {
-        "id": 1,
-        "nombre": "Ron Bacardí Añejo",
-        "descripcion": "Ron añejo de alta calidad",
-        "tipo": "Ron",
-        "precio": 25.99,
-        "imagen": "url_de_la_imagen",
-        "stock": 6
-      },
-      {
-        "id": 2,
-        "nombre": "Jack Daniel's Tennessee Whiskey",
-        "descripcion": "Whiskey americano de Tennessee",
-        "tipo": "Whiskey",
-        "precio": 30.49,
-        "imagen": "url_de_la_imagen",
-        "stock": 24
-      },
-      {
-        "id": 3,
-        "nombre": "Moët & Chandon Brut Impérial",
-        "descripcion": "Champagne francés Brut",
-        "tipo": "Champagne",
-        "precio": 45.99,
-        "imagen": "url_de_la_imagen",
-        "stock": 45
-      },
-      {
-        "id": 4,
-        "nombre": "Gin Bombay Sapphire",
-        "descripcion": "Ginebra inglesa de alta gama",
-        "tipo": "Ginebra",
-        "precio": 35.75,
-        "imagen": "url_de_la_imagen",
-        "stock": 4
-      },
-      {
-        "id": 5,
-        "nombre": "Tequila Patrón Reposado",
-        "descripcion": "Tequila reposado de agave azul",
-        "tipo": "Tequila",
-        "precio": 40.99,
-        "imagen": "url_de_la_imagen",
-        "stock": 12
-      }
-    ]
-  }
+  "bebidas": [
+    {
+      "id": 1,
+      "nombre": "Ron Bacardí Añejo",
+      "descripcion": "Ron añejo de alta calidad",
+      "tipo": "Ron",
+      "precio": 25.99,
+      "imagen": "/images/ron-bacardi-anejo.jpeg",
+      "stock": 6
+    },
+    {
+      "id": 2,
+      "nombre": "Jack Daniel's Tennessee Whiskey",
+      "descripcion": "Whiskey americano de Tennessee",
+      "tipo": "Whiskey",
+      "precio": 30.49,
+      "imagen": "/images/jack-daniels.png",
+      "stock": 24
+    },
+    {
+      "id": 3,
+      "nombre": "Moët & Chandon Brut Impérial",
+      "descripcion": "Champagne francés Brut",
+      "tipo": "Champagne",
+      "precio": 45.99,
+      "imagen": "/images/Moet.jpg",
+      "stock": 45
+    },
+    {
+      "id": 4,
+      "nombre": "Gin Bombay Sapphire",
+      "descripcion": "Ginebra inglesa de alta gama",
+      "tipo": "Ginebra",
+      "precio": 35.75,
+      "imagen": "/images/Bombay-Sapphire.jpg",
+      "stock": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Tequila Patrón Reposado",
+      "descripcion": "Tequila reposado de agave azul",
+      "tipo": "Tequila",
+      "precio": 40.99,
+      "imagen": "/images/patron-reposado.png",
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "nombre": "Vodka Absolut",
+      "descripcion": "Vodka sueco de alta calidad",
+      "tipo": "Vodka",
+      "precio": 20.99,
+      "imagen": "/images/vodka-absolut.webp",
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "nombre": "Cerveza Corona Extra",
+      "descripcion": "Cerveza mexicana ligera y refrescante",
+      "tipo": "Cerveza",
+      "precio": 3.99,
+      "imagen": "/images/corona.jpg",
+      "stock": 30
+    },
+    {
+      "id": 8,
+      "nombre": "Vino Malbec Trapiche",
+      "descripcion": "Vino tinto argentino, variedad Malbec",
+      "tipo": "Vino",
+      "precio": 15.99,
+      "imagen": "/images/trapiche-malbec.jpeg",
+      "stock": 20
+    },
+    {
+      "id": 9,
+      "nombre": "Pisco Portón",
+      "descripcion": "Pisco peruano, destilado de uva",
+      "tipo": "Pisco",
+      "precio": 25.99,
+      "imagen": "/images/pisco-porton.jpg",
+      "stock": 10
+    },
+    {
+      "id": 10,
+      "nombre": "Cachaça 51",
+      "descripcion": "Cachaça brasileña, destilado de caña de azúcar",
+      "tipo": "Cachaça",
+      "precio": 14.99,
+      "imagen": "/images/cachaca-51.png",
+      "stock": 18
+    },
+    {
+      "id": 11,
+      "nombre": "Whisky Chivas Regal",
+      "descripcion": "Whisky escocés mezclado",
+      "tipo": "Whisky",
+      "precio": 32.99,
+      "imagen": "/images/chivas-regal.jpg",
+      "stock": 20
+    },
+    {
+      "id": 12,
+      "nombre": "Cerveza Heineken",
+      "descripcion": "Cerveza holandesa tipo lager",
+      "tipo": "Cerveza",
+      "precio": 3.50,
+      "imagen": "/images/heineken.png",
+      "stock": 40
+    },
+    {
+      "id": 13,
+      "nombre": "Vino Cabernet Sauvignon Casillero del Diablo",
+      "descripcion": "Vino tinto chileno, variedad Cabernet Sauvignon",
+      "tipo": "Vino",
+      "precio": 12.99,
+      "imagen": "/images/casillerodeldiablo.jpg",
+      "stock": 30
+    },
+    {
+      "id": 14,
+      "nombre": "Rum Havana Club",
+      "descripcion": "Ron cubano añejo",
+      "tipo": "Ron",
+      "precio": 22.99,
+      "imagen": "/images/havana-club.png",
+      "stock": 15
+    },
+    {
+      "id": 15,
+      "nombre": "Tequila Don Julio Blanco",
+      "descripcion": "Tequila blanco de agave azul",
+      "tipo": "Tequila",
+      "precio": 45.99,
+      "imagen": "/images/Tequila-Don-Julio-Blanco.webp",
+      "stock": 10
+    },
+    {
+      "id": 16,
+      "nombre": "Gin Tanqueray",
+      "descripcion": "Ginebra inglesa de alta calidad",
+      "tipo": "Ginebra",
+      "precio": 28.99,
+      "imagen": "/images/tanqueray.jpeg",
+      "stock": 12
+    },
+    {
+      "id": 17,
+      "nombre": "Vodka Grey Goose",
+      "descripcion": "Vodka francés de alta calidad",
+      "tipo": "Vodka",
+      "precio": 45.99,
+      "imagen": "/images/grey-goose.png",
+      "stock": 8
+    },
+    {
+      "id": 18,
+      "nombre": "Cerveza Budweiser",
+      "descripcion": "Cerveza americana tipo lager",
+      "tipo": "Cerveza",
+      "precio": 3.99,
+      "imagen": "/images/budweiser.jpg",
+      "stock": 35
+    },
+    {
+      "id": 19,
+      "nombre": "Vino Chardonnay Kendall-Jackson",
+      "descripcion": "Vino blanco americano, variedad Chardonnay",
+      "tipo": "Vino",
+      "precio": 17.99,
+      "imagen": "/images/kendall-jackson.webp",
+      "stock": 25
+    },
+    {
+      "id": 20,
+      "nombre": "Whisky Jameson",
+      "descripcion": "Whisky irlandés mezclado",
+      "tipo": "Whisky",
+      "precio": 28.99,
+      "imagen": "/images/jameson.jpeg",
+      "stock": 20
+    }
+  ]
+}

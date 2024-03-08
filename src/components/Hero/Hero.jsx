@@ -3,9 +3,11 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <main>
-      <section className='hero'>
-        <h1>HERO</h1>
+    <main className='main'>
+      <div className="overlay"></div>
+      <section className='main-content'>
+        <h2>¡Bienvenidos a BurBebidas!</h2>
+        <h1>Tienda de Bebidas</h1>
       </section>
     </main>
   )

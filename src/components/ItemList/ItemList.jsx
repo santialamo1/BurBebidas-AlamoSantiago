@@ -5,8 +5,8 @@ import './ItemList.css';
 const ItemList = ({ bebidas }) => {
   return (
     <div className="item-list">
-      {Array.isArray(bebidas) ? bebidas.map((bebida) => (
-        <Item key={bebida.id} bebida={bebida} />
+      {Array.isArray(bebidas) ? bebidas.map((bebida, index) => (
+        <Item key={index} bebida={bebida} />
       )) : (
         <p>No hay bebidas disponibles</p>
       )}

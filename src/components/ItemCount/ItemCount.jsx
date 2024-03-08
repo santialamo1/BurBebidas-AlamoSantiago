@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { useCart } from '../CartContext/CartContext';
+import './ItemCount.css'
 
-const ItemCount = ({ stock, initial, onAdd }) => {
+const ItemCount = ({ stock, initial, product }) => {
+  const { addToCart } = useCart();
   const [count, setCount] = useState(initial);
 
   const Increment = () => {
@@ -15,8 +18,8 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     }
   };
 
-  const AddToCart = () => {
-    onAdd(count);
+  const handleAddToCart = () => {
+    addToCart(product, count);
   };
 
   return (
@@ -24,7 +27,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
       <button onClick={Decrement}>-</button>
       <span>{count}</span>
       <button onClick={Increment}>+</button>
-      <button onClick={AddToCart}>Agregar al carrito</button>
+      <button onClick={handleAddToCart}>Agregar al carrito</button>
     </div>
   );
 };
